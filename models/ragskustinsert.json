@@ -13,6 +13,7 @@
       "required": false,
       "length": 22,
       "precision": 8,
+      "id" : true,
       "scale": 0,
       "oracle": {
         "columnName": "SKU",
