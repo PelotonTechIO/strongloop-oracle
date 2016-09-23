@@ -1,0 +1,357 @@
+{
+  "name": "RagSkusStInsert",
+  "options": {
+    "idInjection": false,
+    "oracle": {
+      "schema": "SYSTEM",
+      "table": "RAG_SKUS_ST_INSERT"
+    }
+  },
+  "properties": {
+    "sku": {
+      "type": "Number",
+      "required": false,
+      "length": 22,
+      "precision": 8,
+      "scale": 0,
+      "oracle": {
+        "columnName": "SKU",
+        "dataType": "NUMBER",
+        "dataLength": 22,
+        "dataPrecision": 8,
+        "dataScale": 0,
+        "nullable": "Y"
+      }
+    },
+    "store": {
+      "type": "Number",
+      "required": false,
+      "length": 22,
+      "precision": 4,
+      "scale": 0,
+      "oracle": {
+        "columnName": "STORE",
+        "dataType": "NUMBER",
+        "dataLength": 22,
+        "dataPrecision": 4,
+        "dataScale": 0,
+        "nullable": "Y"
+      }
+    },
+    "primarySupplier": {
+      "type": "Number",
+      "required": false,
+      "length": 22,
+      "precision": 10,
+      "scale": 0,
+      "oracle": {
+        "columnName": "PRIMARY_SUPPLIER",
+        "dataType": "NUMBER",
+        "dataLength": 22,
+        "dataPrecision": 10,
+        "dataScale": 0,
+        "nullable": "Y"
+      }
+    },
+    "style": {
+      "type": "Number",
+      "required": false,
+      "length": 22,
+      "precision": 8,
+      "scale": 0,
+      "oracle": {
+        "columnName": "STYLE",
+        "dataType": "NUMBER",
+        "dataLength": 22,
+        "dataPrecision": 8,
+        "dataScale": 0,
+        "nullable": "Y"
+      }
+    },
+    "unitCost": {
+      "type": "Number",
+      "required": false,
+      "length": 22,
+      "precision": 20,
+      "scale": 4,
+      "oracle": {
+        "columnName": "UNIT_COST",
+        "dataType": "NUMBER",
+        "dataLength": 22,
+        "dataPrecision": 20,
+        "dataScale": 4,
+        "nullable": "Y"
+      }
+    },
+    "avCost": {
+      "type": "Number",
+      "required": false,
+      "length": 22,
+      "precision": 20,
+      "scale": 4,
+      "oracle": {
+        "columnName": "AV_COST",
+        "dataType": "NUMBER",
+        "dataLength": 22,
+        "dataPrecision": 20,
+        "dataScale": 4,
+        "nullable": "Y"
+      }
+    },
+    "unitRetail": {
+      "type": "Number",
+      "required": false,
+      "length": 22,
+      "precision": 20,
+      "scale": 4,
+      "oracle": {
+        "columnName": "UNIT_RETAIL",
+        "dataType": "NUMBER",
+        "dataLength": 22,
+        "dataPrecision": 20,
+        "dataScale": 4,
+        "nullable": "Y"
+      }
+    },
+    "stockOnHand": {
+      "type": "Number",
+      "required": false,
+      "length": 22,
+      "precision": 12,
+      "scale": 4,
+      "oracle": {
+        "columnName": "STOCK_ON_HAND",
+        "dataType": "NUMBER",
+        "dataLength": 22,
+        "dataPrecision": 12,
+        "dataScale": 4,
+        "nullable": "Y"
+      }
+    },
+    "inTransitQty": {
+      "type": "Number",
+      "required": false,
+      "length": 22,
+      "precision": 12,
+      "scale": 4,
+      "oracle": {
+        "columnName": "IN_TRANSIT_QTY",
+        "dataType": "NUMBER",
+        "dataLength": 22,
+        "dataPrecision": 12,
+        "dataScale": 4,
+        "nullable": "Y"
+      }
+    },
+    "tsfReservedQty": {
+      "type": "Number",
+      "required": false,
+      "length": 22,
+      "precision": 12,
+      "scale": 4,
+      "oracle": {
+        "columnName": "TSF_RESERVED_QTY",
+        "dataType": "NUMBER",
+        "dataLength": 22,
+        "dataPrecision": 12,
+        "dataScale": 4,
+        "nullable": "Y"
+      }
+    },
+    "tsfExpectedQty": {
+      "type": "Number",
+      "required": false,
+      "length": 22,
+      "precision": 12,
+      "scale": 4,
+      "oracle": {
+        "columnName": "TSF_EXPECTED_QTY",
+        "dataType": "NUMBER",
+        "dataLength": 22,
+        "dataPrecision": 12,
+        "dataScale": 4,
+        "nullable": "Y"
+      }
+    },
+    "rtvQty": {
+      "type": "Number",
+      "required": false,
+      "length": 22,
+      "precision": 12,
+      "scale": 4,
+      "oracle": {
+        "columnName": "RTV_QTY",
+        "dataType": "NUMBER",
+        "dataLength": 22,
+        "dataPrecision": 12,
+        "dataScale": 4,
+        "nullable": "Y"
+      }
+    },
+    "nonSellableQty": {
+      "type": "Number",
+      "required": false,
+      "length": 22,
+      "precision": 12,
+      "scale": 4,
+      "oracle": {
+        "columnName": "NON_SELLABLE_QTY",
+        "dataType": "NUMBER",
+        "dataLength": 22,
+        "dataPrecision": 12,
+        "dataScale": 4,
+        "nullable": "Y"
+      }
+    },
+    "clearInd": {
+      "type": "String",
+      "required": false,
+      "length": 1,
+      "precision": null,
+      "scale": null,
+      "oracle": {
+        "columnName": "CLEAR_IND",
+        "dataType": "VARCHAR2",
+        "dataLength": 1,
+        "dataPrecision": null,
+        "dataScale": null,
+        "nullable": "Y"
+      }
+    },
+    "taxableInd": {
+      "type": "String",
+      "required": false,
+      "length": 1,
+      "precision": null,
+      "scale": null,
+      "oracle": {
+        "columnName": "TAXABLE_IND",
+        "dataType": "VARCHAR2",
+        "dataLength": 1,
+        "dataPrecision": null,
+        "dataScale": null,
+        "nullable": "Y"
+      }
+    },
+    "status": {
+      "type": "String",
+      "required": false,
+      "length": 1,
+      "precision": null,
+      "scale": null,
+      "oracle": {
+        "columnName": "STATUS",
+        "dataType": "VARCHAR2",
+        "dataLength": 1,
+        "dataPrecision": null,
+        "dataScale": null,
+        "nullable": "Y"
+      }
+    },
+    "statusUpdateDate": {
+      "type": "Date",
+      "required": false,
+      "length": 7,
+      "precision": null,
+      "scale": null,
+      "oracle": {
+        "columnName": "STATUS_UPDATE_DATE",
+        "dataType": "DATE",
+        "dataLength": 7,
+        "dataPrecision": null,
+        "dataScale": null,
+        "nullable": "Y"
+      }
+    },
+    "lastSalesExportDate": {
+      "type": "Date",
+      "required": false,
+      "length": 7,
+      "precision": null,
+      "scale": null,
+      "oracle": {
+        "columnName": "LAST_SALES_EXPORT_DATE",
+        "dataType": "DATE",
+        "dataLength": 7,
+        "dataPrecision": null,
+        "dataScale": null,
+        "nullable": "Y"
+      }
+    },
+    "dailyWastePct": {
+      "type": "Number",
+      "required": false,
+      "length": 22,
+      "precision": 12,
+      "scale": 4,
+      "oracle": {
+        "columnName": "DAILY_WASTE_PCT",
+        "dataType": "NUMBER",
+        "dataLength": 22,
+        "dataPrecision": 12,
+        "dataScale": 4,
+        "nullable": "Y"
+      }
+    },
+    "nrdCurSeasonReceived": {
+      "type": "Date",
+      "required": false,
+      "length": 7,
+      "precision": null,
+      "scale": null,
+      "oracle": {
+        "columnName": "NRD_CUR_SEASON_RECEIVED",
+        "dataType": "DATE",
+        "dataLength": 7,
+        "dataPrecision": null,
+        "dataScale": null,
+        "nullable": "Y"
+      }
+    },
+    "nrdLastReceived": {
+      "type": "Date",
+      "required": false,
+      "length": 7,
+      "precision": null,
+      "scale": null,
+      "oracle": {
+        "columnName": "NRD_LAST_RECEIVED",
+        "dataType": "DATE",
+        "dataLength": 7,
+        "dataPrecision": null,
+        "dataScale": null,
+        "nullable": "Y"
+      }
+    },
+    "nrdReplInd": {
+      "type": "String",
+      "required": false,
+      "length": 1,
+      "precision": null,
+      "scale": null,
+      "oracle": {
+        "columnName": "NRD_REPL_IND",
+        "dataType": "VARCHAR2",
+        "dataLength": 1,
+        "dataPrecision": null,
+        "dataScale": null,
+        "nullable": "Y"
+      }
+    },
+    "nrdLastSoldDate": {
+      "type": "Date",
+      "required": false,
+      "length": 7,
+      "precision": null,
+      "scale": null,
+      "oracle": {
+        "columnName": "NRD_LAST_SOLD_DATE",
+        "dataType": "DATE",
+        "dataLength": 7,
+        "dataPrecision": null,
+        "dataScale": null,
+        "nullable": "Y"
+      }
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "db": {
+    "name": "db",
+    "connector": "memory"
+  },
+  "accountDS": {
+    "name": "oracleDS",
+    "connector": "oracle",
+    "host": "10.5.67.142",
+    "port": 1521,
+    "database": "orcl",
+    "username": "system",
+    "password": "oracle"
+  }
+}
